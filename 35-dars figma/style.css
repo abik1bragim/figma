@@ -1,0 +1,129 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   width: 1440px;
+}
+
+.container {
+   height: 1307px;
+   width: 100%;
+   background: url(./photo_2022-05-31_12-51-19.jpg);
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   border: 2px solid red;
+   height: 80px;
+}
+
+ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   list-style-type: none;
+   margin-left: 250px;
+}
+
+li {
+   margin-left: 30px;
+}
+
+.container img {
+   width: 100%;
+   height: 100%;
+}
+
+
+.nav_left {
+   display: flex;
+   align-items: center;
+   border: 2px solid blue;
+   margin-left: 50px;
+}
+
+.nav_left h3 {
+   font-size: 30px;
+}
+
+.nav_right {
+   border: 2px solid green;
+   display: flex;
+   align-items: center;
+   margin-left: 190px;
+   width: 160px;
+   height: 70px;
+}
+
+button {
+   margin-left: 40px;
+   width: 50px;
+   height: 30px;
+}
+
+.content_img {
+   margin-left: 923px;
+}
+
+.content_img img {
+   width: 360px;
+   height: 451px;
+   border-radius: 20%;
+   outline: 10px solid #fff;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.banner {
+   height: 100%;
+   width: 100%;
+   /* border: 2px solid red; */
+   background-color: blue;
+}
+
+.tablica {
+   width: 1110;
+   height: 266px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   margin-left: 180px;
+}
+
+.lax {
+   margin-left: 30px;
+   border: 2px solid red;
+   height: 200px;
+}
+
+.mia {
+   margin-left: 30px;
+   border: 2px solid blue;
+   height: 200px;
+
+}
+
+.departure {
+   margin-left: 30px;
+   border: 2px solid green;
+   height: 200px;
+
+}
+
+.return {
+   margin-left: 30px;
+   border: 2px solid black;
+   height: 200px;
+}
+
+h1 {
+   padding: 10px;
+}
+
+.pn {
+   display: flex;
+}
